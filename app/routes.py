@@ -35,8 +35,13 @@ def questions():
         print(question_list)
         questions = genereate_question_list(question_list)
         generate_quizzes(questions)
-        return send_file("/static/quiz.txt")
+        return send_file("static\quiz.txt")
         # return redirect('/file-download')
+
+
+@app.route("/")
+def file_sender():
+    return flask.send_file("static/quiz.txt")
 
 
 @app.route('/file-download')
