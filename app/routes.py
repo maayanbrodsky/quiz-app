@@ -4,7 +4,7 @@ from flask import render_template, request, send_file
 
 from app import app
 from app.forms import QuizQuestions
-from app.generator import genereate_question_list, generate_quizzes
+from app.generator import genereate_question_list, generate_quizzes, zip_files
 
 
 def get_numbers(form_results):
@@ -38,6 +38,8 @@ def questions():
         print(question_list)
         questions = genereate_question_list(question_list)
         generate_quizzes(questions)
+        zip_files(path / 'quizzes')
+
         return send_file(path / 'quiz_files.zip')
         # return redirect('/file-download')
 

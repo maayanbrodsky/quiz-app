@@ -68,7 +68,7 @@ def generate_quizzes(questions):
     with open(path / 'blackboard_quiz.txt', 'w') as blackboard_quiz:
         blackboard_quiz.write(machine_quiz)
     generate_answer_key(correct_answers, path)
-    zip_files(path)
+    # zip_files(path)
 
 
 def get_file_paths(dirpath):
