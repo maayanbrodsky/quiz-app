@@ -35,7 +35,8 @@ def questions():
         print(question_list)
         questions = genereate_question_list(question_list)
         generate_quizzes(questions)
-        return redirect('/file-download')
+        return send_file("/static/quiz.txt")
+        # return redirect('/file-download')
 
 
 @app.route('/file-download')
