@@ -50,8 +50,7 @@ def genereate_question_list(sections):
 def generate_quizzes(questions):
     """Takes a list of question dictionaries, returns a human-formatted quiz,
     a machine-formatted quiz, and an answer key as txt files."""
-    path = Path(__file__)
-    path = path.parent/'static'
+    path = Path('static')
     correct_answers = []
     human_quiz = ''
     machine_quiz = ''

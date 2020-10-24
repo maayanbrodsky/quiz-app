@@ -40,5 +40,5 @@ def questions():
 
 @app.route('/file-download')
 def file_download():
-    # return send_file("/static/quiz.txt")
-    return render_template('file-download.html', title='download')
+    return send_file("/static/quiz.txt")
+    # return render_template('file-download.html', title='download')
