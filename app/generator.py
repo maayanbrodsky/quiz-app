@@ -86,9 +86,9 @@ def zip_files(dirpath):
     print('Following files will be zipped:')
     for file_name in file_paths:
         print(file_name)
-    with ZipFile(dirpath.parent / 'quizzes.zip', 'w') as zip:
-            for file in file_paths:
-                zip.write(file)
+    with ZipFile(dirpath.parent / 'quiz_files.zip', 'w') as zip:
+        for file in file_paths:
+            zip.write(file)
 
 
 
