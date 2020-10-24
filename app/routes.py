@@ -2,6 +2,7 @@ from flask import render_template, request, redirect, send_file
 from app import app
 from app.forms import QuizQuestions
 from app.generator import genereate_question_list, generate_quizzes
+from pathlib import Path
 
 
 
@@ -27,6 +28,7 @@ def index():
 
 @app.route('/questions', methods=['GET', 'POST'])
 def questions():
+    path = Path(__file__).parent / 'static'
     form = QuizQuestions()
     if request.method == 'GET':
         return render_template('questions.html', title='question selection', form=form)
@@ -35,7 +37,7 @@ def questions():
         print(question_list)
         questions = genereate_question_list(question_list)
         generate_quizzes(questions)
-        return send_file("static\quiz.txt")
+        return send_file(f"{path}\quiz.txt")
         # return redirect('/file-download')
 
 
