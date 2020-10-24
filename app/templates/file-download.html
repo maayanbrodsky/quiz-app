@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div>
+    <p>download <a href="{{ url_for('static', filename='quiz.txt') }}" download>standard quiz</a></p>
+    <p>download <a href="{{ url_for('static', filename='blackboard_quiz.txt') }}" download>blackboard quiz</a></p>
+    <p>download <a href="{{ url_for('static', filename='answer_key.txt') }}" download>answer key</a>
+</div>
+{% endblock %}

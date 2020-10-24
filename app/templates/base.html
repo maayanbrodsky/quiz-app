@@ -1,0 +1,14 @@
+<html>
+    <head>
+      <title>Question Selection</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <body>
+        <header>
+            <a href="/index">Home</a>
+            <a href="/questions">Questions</a>
+        </header>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>

@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Select Questions</h1>
+    <div>
+        <form action="" method="post" novalidate>
+            {{ form.hidden_tag() }}
+            </p>
+            <p>{{ form.q150201() }} {{ form.q150201.label }}</p>
+            <ul>
+                <li>    a. The concept of citizenship and who counts as a citizen.</li>
+                <li>    b. Proper compensation to the North for property lost in the war.</li>
+                <li>    c. Legitimacy of military tactics used in the war.</li>
+                <li>    d. Proper compensation to the South for property lost in the war.</li>
+            </ul>
+            <p>{{ form.q150101() }} {{ form.q150101.label }}</p>
+            <ul>
+                <li>    a. A government effort to reconstruct the infrastructure of the nation.</li>
+                <li>    b. An effort by the South to rebuild itself after the war.</li>
+                <li>    c. An attempt to reincorporate the South into the Union and redefine the role of black people in American society.</li>
+                <li>    d. None of the answers given.</li>
+            </ul>
+            <p>{{ form.q150301() }} {{ form.q150301.label }}</p>
+            <ul>
+                <li>    a. A reestablishment of traditional African culture.</li>
+                <li>    b. A desire to achieve ownership of land with government assistance.</li>
+                <li>    A demand to punish former slaveowners.</li>
+                <li>    A public recognition of their pain and suffering.</li>
+            </ul>
+            <p>{{ form.q150302() }} {{ form.q150302.label }}</p>
+            <ul>
+                <li>    a. Centralized leadership and organization.</li>
+                <li>    b. Lending libraries.</li>
+                <li>    c. Missing person’s bureau.</li>
+                <li>    d. Business hubs.</li>
+            </ul>
+            <p>{{ form.submit() }}</p>
+        </form>
+    </div>
+{% endblock %}
