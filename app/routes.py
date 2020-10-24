@@ -1,9 +1,10 @@
-from flask import render_template, request, redirect, send_file
+from pathlib import Path
+
+from flask import render_template, request, send_file
+
 from app import app
 from app.forms import QuizQuestions
 from app.generator import genereate_question_list, generate_quizzes
-from pathlib import Path
-
 
 
 def get_numbers(form_results):
@@ -37,7 +38,7 @@ def questions():
         print(question_list)
         questions = genereate_question_list(question_list)
         generate_quizzes(questions)
-        return send_file(f"{path}\quiz.txt")
+        return send_file(path / 'quizzes.zip')
         # return redirect('/file-download')
 
 
