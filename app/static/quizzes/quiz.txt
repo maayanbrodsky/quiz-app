@@ -1,14 +1,14 @@
-1. Which of the following was a major concern expressed by freedpeople in the South?
-   a. A desire to achieve ownership of land with government assistance.
-   b. A demand to punish former slaveowners.
-   c. A reestablishment of traditional African culture.
-   d. A public recognition of their pain and suffering.
+1. Which of the following was the most prominent issue publicly debated after the Civil War?
+   a. Proper compensation to the South for property lost in the war.
+   b. Proper compensation to the North for property lost in the war.
+   c. Legitimacy of military tactics used in the war.
+   d. The concept of citizenship and who counts as a citizen.
 
-2. Which of the following was the most prominent issue publicly debated after the Civil War?
-   a. Proper compensation to the North for property lost in the war.
-   b. The concept of citizenship and who counts as a citizen.
-   c. Proper compensation to the South for property lost in the war.
-   d. Legitimacy of military tactics used in the war.
+2. Which of the following was a major concern expressed by freedpeople in the South?
+   a. A reestablishment of traditional African culture.
+   b. A public recognition of their pain and suffering.
+   c. A desire to achieve ownership of land with government assistance.
+   d. A demand to punish former slaveowners.
 
 
-generated: 2020-10-24 20:44:52.910829
+generated: 2020-10-24 21:53:51.341047
