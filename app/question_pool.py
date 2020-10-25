@@ -120,5 +120,4 @@ question_pool = [{"chapter": 15,
                              ("Only able to exist in Western countries.", "correct"),
                              ("A negative force in the United States.", "incorrect"),
                              ("None of the answers given.", "incorrect")]},
-
                 ]

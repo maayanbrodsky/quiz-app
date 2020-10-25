@@ -1,5 +1,7 @@
 from flask_wtf import FlaskForm
 from wtforms import BooleanField, SubmitField
+
+
 from app.question_pool import question_pool
 
 
@@ -12,6 +14,7 @@ def generate_questions(question_pool):
 
 
 questions = generate_questions(question_pool)
+
 
 class QuizQuestions(FlaskForm):
     q150201 = BooleanField(questions[0])
