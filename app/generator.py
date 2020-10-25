@@ -84,7 +84,7 @@ def get_file_paths(dirpath):
 def zip_files(dirpath):
     print(dirpath)
     file_paths = get_file_paths(dirpath)
-    print('The following files will be zipped:')
+    print('Following files will be zipped:')
     for file_name in file_paths:
         print(file_name)
     with ZipFile(dirpath.parent / 'quiz_files.zip', 'w') as zip:
