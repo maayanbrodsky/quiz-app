@@ -25,7 +25,7 @@ def format_question(question):
     machine_formatted = f'MC\t{question["q"]}\t'
     for i, answer in enumerate(answers):
         machine_formatted += f'{answer[0]} {answer[1]}\t'
-        human_formatted += f'   {string.ascii_lowercase[i]}. {answer[0]}\n'  # TODO spaces or tabs (for MS Word)?
+        human_formatted += f'   {string.ascii_lowercase[i]}. {answer[0]}\n'
         if answer[1] == "correct":
             correct = string.ascii_lowercase[i]
     return machine_formatted, human_formatted, correct
