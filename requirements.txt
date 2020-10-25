@@ -29,7 +29,6 @@ cycler==0.10.0
 cytoolz==0.10.1
 decorator==4.4.2
 defusedxml==0.6.0
-distributed @ file:///C:/ci/distributed_1594742844291/work
 docutils==0.16
 entrypoints==0.3
 et-xmlfile==1.0.1
@@ -40,7 +39,6 @@ Flask==1.1.2
 Flask-WTF==0.14.3
 fsspec==0.7.4
 future==0.18.2
-gevent @ file:///C:/ci/gevent_1593005471151/work
 glob2==0.7
 gmpy2==2.0.8
 graph-theory==2020.9.1.45222
@@ -50,15 +48,12 @@ h5py==2.10.0
 HeapDict==1.0.1
 idna==2.10
 imagesize==1.2.0
-importlib-metadata @ file:///C:/ci/importlib-metadata_1593446511143/work
 ipykernel @ file:///C:/ci/ipykernel_1594745408489/work/dist/ipykernel-5.3.2-py3-none-any.whl
-ipython @ file:///C:/ci/ipython_1593447482397/work
 ipython-genutils==0.2.0
 ipywidgets==7.5.1
 isort==4.3.21
 itsdangerous==1.1.0
 jdcal==1.4.1
-jedi @ file:///C:/ci/jedi_1592833825077/work
 Jinja2==2.11.2
 json5==0.9.5
 jsonschema==3.2.0
@@ -66,13 +61,11 @@ jupyter==1.0.0
 jupyter-console==6.1.0
 jupyter-core==4.6.3
 jupyterlab==2.1.5
-keyring @ file:///C:/ci/keyring_1593109799227/work
 kiwisolver==1.2.0
 lazy-object-proxy==1.4.3
 libarchive-c==2.9
 llvmlite==0.33.0+1.g022ab0f
 locket==0.2.0
-lxml @ file:///C:/ci/lxml_1594822774489/work
 MarkupSafe==1.1.1
 matplotlib==3.3.1
 mccabe==0.6.1
@@ -97,7 +90,6 @@ numexpr==2.7.1
 numpy==1.18.5
 olefile==0.46
 packaging==20.4
-pandas @ file:///C:/ci/pandas_1592833613419/work
 pandocfilters==1.4.2
 paramiko==2.7.1
 parso==0.7.0
@@ -122,8 +114,6 @@ pycurl==7.43.0.5
 pydot==1.4.1
 pyflakes==2.2.0
 Pygments==2.6.1
-pylint @ file:///C:/ci/pylint_1592482039483/work
-PyNaCl @ file:///C:/ci/pynacl_1595000047588/work
 pyodbc===4.0.0-unsupported
 pyparsing==2.4.7
 pyreadline==2.1
@@ -132,7 +122,6 @@ PySocks==1.7.1
 pytest==5.4.3
 python-dateutil==2.8.1
 python-dotenv==0.14.0
-python-language-server @ file:///C:/ci/python-language-server_1594162130238/work
 pytz==2020.1
 PyWavelets==1.1.1
 pywin32==227
@@ -143,14 +132,11 @@ pyzmq==19.0.1
 QDarkStyle==2.8.1
 QtAwesome==0.7.2
 QtPy==1.9.0
-regex @ file:///C:/ci/regex_1593419644658/work
 requests==2.24.0
 rope==0.17.0
 Rtree==0.9.4
 ruamel-yaml==0.15.87
 scikit-image==0.16.2
-scikit-learn @ file:///C:/ci/scikit-learn_1592853510272/work
-scipy @ file:///C:/ci/scipy_1592916963468/work
 seaborn==0.10.1
 Send2Trash==1.5.0
 simplegeneric==0.8.1
@@ -167,24 +153,17 @@ sphinxcontrib-htmlhelp==1.0.3
 sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.4
-spyder @ file:///C:/ci/spyder_1594830825244/work
-spyder-kernels @ file:///C:/ci/spyder-kernels_1594751670175/work
-SQLAlchemy @ file:///C:/ci/sqlalchemy_1593445271541/work
 statsmodels==0.11.1
-sympy @ file:///C:/ci/sympy_1594234545115/work
 tables==3.6.1
 tblib==1.6.0
 terminado==0.8.3
 testpath==0.4.4
-threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
 toolz==0.10.0
 tornado==6.0.4
-tqdm @ file:///tmp/build/80754af9/tqdm_1593446365756/work
 traitlets==4.3.3
 ujson==1.35
 unicodecsv==0.14.1
 urllib3==1.25.10
-watchdog @ file:///C:/ci/watchdog_1593447437088/work
 webencodings==0.5.1
 Werkzeug==1.0.1
 widgetsnbextension==3.5.1
